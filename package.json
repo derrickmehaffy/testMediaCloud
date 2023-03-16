@@ -1,0 +1,30 @@
+{
+  "name": "test-media-cloud",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.9.0-exp.90df253ba90fd6879eb56a720a1f80d04ff745b8",
+    "@strapi/plugin-users-permissions": "4.9.0-exp.90df253ba90fd6879eb56a720a1f80d04ff745b8",
+    "@strapi/plugin-i18n": "4.9.0-exp.90df253ba90fd6879eb56a720a1f80d04ff745b8",
+    "better-sqlite3": "8.0.1"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "00c00fe9-79f1-4651-80ea-67f249537fec"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
